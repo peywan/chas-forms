@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/folderTest/style.css">
+</head>
+
+<body>
+
+
+    <form action="https://httpbin.org/anything" method="post">
+        <input type="text" name="username" placeholder="Användarnamn" id="red">
+        <input type="text" name="email" placeholder="E-post">
+        <input type="password" name="password" placeholder="Lösenord">
+        <div>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Man</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Kvinna</label>
+            <button type="button" onclick="reset()">Återställ</button>
+        </div>
+        <div>
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms">Jag accepterar villkoren</label>
+        </div>
+        <button type="submit">Skicka</button>
+    </form>
+
+
+
+    <script src="/folderTest/app.js"></script>
+</body>
+
+</html>

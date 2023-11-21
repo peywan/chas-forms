@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.forms {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: space-around;
+
+}
